@@ -1,0 +1,5 @@
+镜像来源：https://hub.docker.com/_/mongo/
+
+拉取指令：docker pull mongo
+
+启动指令：docker run --name mongo -v /home/mongo:/data/db -d -p 27017:27017 mongo:latest

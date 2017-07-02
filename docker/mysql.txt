@@ -1,0 +1,5 @@
+镜像来源：https://hub.docker.com/_/mysql/
+
+拉取指令：docker pull mysql
+
+启动指令：docker run --name mysql -v /home/mysql:/var/lib/mysql -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql:latest --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci

@@ -1,0 +1,5 @@
+镜像来源：https://hub.docker.com/_/redis/
+
+拉取指令：docker pull redis
+
+启动指令：docker run --name redis -d -p 6379:6379 redis
